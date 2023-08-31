@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product feedback app</title>
+    <meta name="viewport" content="width=1024">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/40971082b3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/commentpage.css">
+</head>
+
+<body>
+    <section class="comment-pg-body commentfullboard">
+        <section class="commntpg">
+            <nav class="comment-navbar">
+
+                <div class="comment-nav-bar" id="go_back_btn">
+                    <i class='bx bx-chevron-left'></i>
+                    <b> Go Back</b>
+                </div>
+                <button class=" edit-button btn "> Edit Feedback </button>
+
+            </nav>
+        </section>
+        <section id="feedback-container">
+
+        </section>
+        <section class="comment-container">
+
+            <div class="commentboard cc" id="commentboardcontainer">
+
+                <div class="commentdetails">
+                    <span id="number-of-comments" class="number-of-comments">0</span> Comments
+                </div>
+                <div id="all-comment-container"></div>
+            </div>
+        </section>
+
+        <section>
+            <div class="addcomment cc">
+                <div class="addcomment-title">
+                    <b>
+                        Add Comment
+                    </b>
+                </div>
+                <div class="write-comment-box">
+                    <textarea cols="60" rows="5" id="write-comment" name="commentwrite"></textarea>
+                </div>
+                <div class="addcomment-bottom" style="padding: 1rem;">
+                    <div class="characters-left">
+                        <span id="count-of-characters-left">250</span> Characters left
+                    </div>
+                    <button class=" commnt-button btn " id="postcomment" type="submit">Post Comment</button>
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+    <script src="../js/commentpg.js"></script>
+
+</body>
+
+</html>

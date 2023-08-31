@@ -1,0 +1,83 @@
+.board {
+  width: 100%;
+  height: 100%;
+  /* background: #707070; */
+}
+
+.cardContainer {
+  display: flex;
+  background-color: #fff;
+  margin: 25px 5px;
+  padding: 20px 25px;
+  border-radius: 8px;
+  max-width: 100%;
+  font-family: sans-serif;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.feedback-details {
+  width: 70%;
+}
+.cardHeading {
+  color: #373e68;
+  font: 20px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.cardDescription {
+  font: 14px;
+  color: #6c707e;
+}
+
+.tagoncard {
+  color: #4661e6;
+  padding: 4px 18px;
+  border: none;
+  width: fit-content;
+  margin: 5px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #f2f4ff;
+}
+
+.upvotecount {
+  padding: 4px 10px;
+  border: none;
+  width: fit-content;
+  margin: 5px;
+  /* font-weight: bold; */
+  border-radius: 10px;
+
+  display: flex;
+  color: #373e68;
+  background-color: #f2f4ff;
+  font-weight: bold;
+  flex-direction: column;
+  align-items: center;
+}
+.upvotecount i {
+  font-weight: bold;
+  color: #4661e6;
+}
+
+.commentcount {
+  padding: 4px 10px;
+  display: flex;
+  color: #373e68;
+  font-weight: bold;
+  align-items: center;
+}
+.commentcount span {
+  padding: 4px 10px;
+}
+.commentcount i {
+  font-weight: bold;
+  color: #cdd2ef;
+}
+.up-vote-clicked {
+  color: #f2f4ff;
+  background-color: #373e68;
+}

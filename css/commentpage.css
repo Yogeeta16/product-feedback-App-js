@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:ght@308;400;500;600;700&display-swap");
+@import "./feedbackcard.css";
+@import "./commentpage.css";
+* {
+  font-family: "Poppins", sans-serif;
+
+  box-sizing: border-box;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.comment-pg-body {
+  padding: 7rem 15rem;
+  /* background-color: #ae1feb; */
+  background-color: #f7f8fd;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 2rem;
+}
+
+.comment-navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.commnt-button {
+  background-color: #ae1feb;
+}
+.cc {
+  background-color: #fff;
+  padding: 1rem;
+  gap: 15px;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+}
+.addcomment-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.btn {
+  border: none;
+  color: #fff;
+  height: 40px;
+  width: 20%;
+  border-radius: 10px;
+  align-items: center;
+}
+.edit-button {
+  background-color: #4661e6;
+}
+.write-comment-box {
+  padding: 0.5rem;
+  width: 100%;
+  height: 10%;
+}
+#write-comment {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  background-color: #9c9ea5;
+  height: 10%;
+}
+.addcomment-title {
+  padding: 1rem;
+  color: #4b5280;
+}
+.characters-left {
+  color: #98a0b8;
+}
+.comment-nav-bar {
+  color: #4b5280;
+}
+.comment-nav-bar i {
+  color: #4661e6;
+}
+.commentdetails {
+  color: #373e68;
+  font-weight: 800;
+  padding-left: 20px;
+}
+
+.profilepic,
+.profilepic-nest {
+  height: auto;
+  width: 10%;
+}
+img {
+  border-radius: 50%;
+  height: auto;
+  width: 50%;
+}
+.commentcardinner {
+  display: flex;
+  color: #373e68;
+  font-size: small;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+.commentcard {
+  color: #373e68;
+  font-size: small;
+}
+
+.person-name,
+.person-name-nest {
+  font-weight: bold;
+}
+.comment-box {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.commentby,
+.commentby-nest {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.all-comment-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.reply-nest,
+.reply-parent,
+.add-replynest {
+  color: #4661e6;
+  font-weight: bold;
+}
+/* ---------------------------------------nested commnt------------------------------------- */
+.comment-box-nest {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.commentcard-nest {
+  display: flex;
+  color: #373e68;
+  font-size: small;
+  background: aquamarine;
+  margin: 1rem;
+  margin-inline: auto;
+  max-width: 80%;
+  padding: 1rem;
+}
+
+/* ---------------------------nest input box ----------------------------------------- */
+
+.input-replynest-class {
+  width: 60%;
+}
+
+.nestedcomment {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
